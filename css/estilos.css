@@ -1,0 +1,111 @@
+/*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- ESTILOS GENERALES-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*/
+:root {
+    /* Definimos nuestros propios colores literarios */
+    --color-primario: #5d4037;    
+    --color-secundario: #fff;  
+    --color-acento: #4a3f35;     
+    --fondo-pagina: #fdfaf7;
+    --fondo-secundario: #f4eee8;
+    --h-border: 1px solid #e0d5c8;
+}
+
+.btn-outline-primary {
+    --bs-btn-color: #5d4037;
+    --bs-btn-border-color: #5d4037;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #5d4037;
+    --bs-btn-hover-border-color: #5d4037;
+    --bs-btn-focus-shadow-rgb: 93, 64, 55;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #5d4037;
+    --bs-btn-active-border-color: #5d4037;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #5d4037;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #5d4037;
+    --bs-gradient: none;
+}
+
+.accordion-button:not(.collapsed) {
+    color: var(--color-primario);
+    background-color: var(--fondo-secundario);
+    box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--color-acento);
+}
+
+.btn-primary {
+    background-color: var(--color-primario) !important;
+    border-color: var(--color-primario) !important;
+}
+
+.bg-light {
+    background-color: var(--color-secundario) !important;
+}
+
+.text-primary {
+    color: var(--color-primario) !important;
+}
+
+body {
+    background-color: var(--fondo-pagina) !important;
+    color: var(--color-acento) !important;
+}
+
+.border-primary {
+    border-color: var(--color-primario) !important;
+}
+
+/******** INDEX ********/
+/** Header **/
+header {
+    background-color: var(--color-secundario) !important;
+    border-bottom: var(--h-border) !important;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Logo */
+.logo {
+    width: 25px;
+    height: auto;
+    margin-right: 5px;
+}
+
+/* Carousel */
+.carousel-inner {
+    margin-top: -10px;
+}
+
+/* Galería */
+.contenedor-galeria {
+    overflow: hidden; 
+    cursor: pointer;
+}
+
+.efecto-foto {
+    transition: transform 0.4s ease, filter 0.4s ease;
+}
+
+.efecto-foto:hover {
+    transform: scale(1.1); 
+    filter: brightness(70%); 
+}
+
+/*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- FOOTER -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*/
+
+/* Imágenes de redes sociales */
+.col-sm-12.col-md-4.mb-4 img {
+    width: 50px;
+    height: auto;
+}
+
+.bg-dark {
+    background-color: var(--fondo-secundario) !important;
+}
+
+.text-white {
+    color: var(--color-acento) !important;
+}
