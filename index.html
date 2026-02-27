@@ -42,7 +42,7 @@
 </header>
     <!-- CUERPO -->
     <main class="container my-5">
-        <div id="carrusel-principal" class="mb-5">
+        <div id="carrusel-principal" class="carousel slide mb-5 d-none d-md-block" data-bs-ride="carousel">
             <!-- CARRUSEL -->
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
@@ -55,19 +55,19 @@
 
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="./assets/img/carrusel01.png" class="d-block w-100" alt="Libro con flores">
+                        <img src="./assets/img/carrusel01.png" class="d-block w-100" alt="Libro con flores" width="2944" height="1928">
                     </div>
                     <div class="carousel-item">
-                        <img src="./assets/img/carrusel02.png" class="d-block w-100" alt="Alas de sangre">
+                        <img src="./assets/img/carrusel02.png" class="d-block w-100" alt="Alas de sangre" width="2944" height="1928">
                     </div>
                     <div class="carousel-item">
-                        <img src="./assets/img/carrusel03.png" class="d-block w-100" alt="Biblioteca">
+                        <img src="./assets/img/carrusel03.png" class="d-block w-100" alt="Biblioteca" width="2944" height="1928">
                     </div>
                     <div class="carousel-item">
-                        <img src="./assets/img/carrusel04.png" class="d-block w-100" alt="Dark Romance">
+                        <img src="./assets/img/carrusel04.png" class="d-block w-100" alt="Dark Romance" width="2944" height="1928">
                     </div>
                     <div class="carousel-item">
-                        <img src="./assets/img/carrusel05.png" class="d-block w-100" alt="Asesthetic Books">
+                        <img src="./assets/img/carrusel05.png" class="d-block w-100" alt="Asesthetic Books" width="2944" height="1928">
                     </div>
                 </div>
 
@@ -82,14 +82,23 @@
                 </div>
         </div>
 
+        <section class="container my-5">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h2>Sobre "Entre Páginas"</h2>
+                    <p>Tu refugio literario donde cada libro cuenta una historia única...</p>
+                </div>
+            </div>
+        </section>
+
             <section class="container my-5">
                 <!-- CARDS -->
                 <div class="row">
                     <div class="col-sm-12 col-lg-3 mb-4">
                         <div class="card h-100 shadow-sm">
-                            <img src="./assets/img/card01.png" class="card-img-top" alt="Libros nuevos">
+                            <img src="./assets/img/card01.png" class="card-img-top" alt="Libros nuevos" width="2944" height="1928">
                             <div class="card-body text-center">
-                                <h5 class="card-title fw-bold">Novedades</h5>
+                                <h2 class="card-title fw-bold">Novedades</h2>
                                 <p class="card-text text-muted">Explora los títulos más esperados del año y mantente al día con los últimos lanzamientos editoriales.</p>
                                 <a href="./views/galeria.html" class="btn btn-outline-primary btn-sm">Ver más</a>
                             </div>
@@ -98,9 +107,9 @@
 
                     <div class="col-sm-12 col-lg-3 mb-4">
                         <div class="card h-100 shadow-sm">
-                            <img src="./assets/img/card02.png" class="card-img-top" alt="Grupo leyendo">
+                            <img src="./assets/img/card02.png" class="card-img-top" alt="Grupo leyendo" width="2944" height="1928">
                             <div class="card-body text-center">
-                                <h5 class="card-title fw-bold">Club de Lectura</h5>
+                                <h2 class="card-title fw-bold">Club de Lectura</h2>
                                 <p class="card-text text-muted">Únete a nuestra comunidad. Compartimos opiniones, cafés y nuestra pasión por las grandes historias.</p>
                                 <a href="./views/contacto.html" class="btn btn-outline-primary btn-sm">Inscribirme</a>
                             </div>
@@ -109,9 +118,9 @@
 
                     <div class="col-sm-12 col-lg-3 mb-4">
                         <div class="card h-100 shadow-sm">
-                            <img src="./assets/img/card03.png" class="card-img-top" alt="Libros antiguos">
+                            <img src="./assets/img/card03.png" class="card-img-top" alt="Libros antiguos" width="2944" height="1928">
                             <div class="card-body text-center">
-                                <h5 class="card-title fw-bold">Coleccionista</h5>
+                                <h2 class="card-title fw-bold">Coleccionista</h2>
                                 <p class="card-text text-muted">Joyas literarias, ediciones limitadas y libros descatalogados para los lectores más exigentes.</p>
                                 <a href="./views/galeria.html" class="btn btn-outline-primary btn-sm">Explorar</a>
                             </div>
@@ -120,9 +129,9 @@
 
                     <div class="col-sm-12 col-lg-3 mb-4">
                         <div class="card h-100 shadow-sm">
-                            <img src="./assets/img/card04.png" class="card-img-top" alt="Cuentos infantiles">
+                            <img src="./assets/img/card04.png" class="card-img-top" alt="Cuentos infantiles" width="2944" height="1928">
                             <div class="card-body text-center">
-                                <h5 class="card-title fw-bold">Zona Infantil</h5>
+                                <h2 class="card-title fw-bold">Zona Infantil</h2>
                                 <p class="card-text text-muted">Un rincón mágico para que los niños descubran el placer de leer a través de cuentos e ilustraciones.</p>
                                 <a href="./views/galeria.html" class="btn btn-outline-primary btn-sm">Descubrir</a>
                             </div>
@@ -201,9 +210,9 @@
                 <div class="col-sm-12 col-md-4 mb-4">
                     <h2 class="text-uppercase mb-4 fw-bold">Síguenos</h2>
                     <div class="d-flex justify-content-center justify-content-md-start">
-                        <a href="https://facebook.com" class="text-white me-3" target="_blank"><img src="./assets/img/Facebook.png" class="card-img-top" alt="Facebook"></a>
-                        <a href="https://instagram.com" class="text-white me-3" target="_blank"><img src="./assets/img/instagram.png" class="card-img-top" alt="Instagram"></a>
-                        <a href="https://twitter.com" class="text-white me-3" target="_blank"><img src="./assets/img/twitter.png" class="card-img-top" alt="Twitter"></a>
+                        <a href="https://facebook.com" class="text-white me-3" target="_blank"><img src="./assets/img/Facebook.png" class="card-img-top" alt="Facebook" width="512" height="512"></a>
+                        <a href="https://instagram.com" class="text-white me-3" target="_blank"><img src="./assets/img/instagram.png" class="card-img-top" alt="Instagram" width="512" height="512"></a>
+                        <a href="https://twitter.com" class="text-white me-3" target="_blank"><img src="./assets/img/twitter.png" class="card-img-top" alt="Twitter" width="512" height="512"></a>
                     </div>
                 </div>
             </div>
